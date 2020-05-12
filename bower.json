@@ -1,0 +1,35 @@
+{
+  "name": "pyxis_hanoi_frontend",
+  "description": "Pyxis frontend with node: React/Redux",
+  "main": "",
+  "authors": [
+    "jp.co.septeni-original"
+  ],
+  "license": "MIT",
+  "moduleType": [
+    "es6"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.2.0",
+    "lodash": "4.0.0",
+    "bootstrap": "3.3.7",
+    "font-awesome": "4.7.0",
+    "select2": "4.0.1",
+    "bootstrap-switch": "3.3.2",
+    "bootstrap-daterangepicker": "^2.1.20",
+    "blockUI": "malsup/blockui",
+    "html5shiv": "^3.7.3",
+    "respond": "^1.4.2",
+    "axios": "^0.15.3",
+    "underscore": "^1.8.3"
+  }
+}

@@ -1,0 +1,148 @@
+.p4l-std-rule {
+
+  .adGroupName {
+    width: 80%;
+  }
+
+  .cost {
+    min-width: 100px;
+  }
+
+  .cpa {
+    min-width: 100px;
+  }
+
+  .referencePeriod {
+    min-width: 75px;
+  }
+
+  .referenceDay {
+    min-width: 100px;
+  }
+
+  .targetCPA {
+    min-width: 130px;
+  }
+
+  .minimumAdNumber {
+    min-width: 90px;
+  }
+
+  .modify {
+    min-width: 130px;
+  }
+
+  .header-tooltip .referencePeriod-tooltip-text {
+    width: 380px;
+    height: 35px;
+    transform: translate(-40%, -5px);
+  }
+
+  .header-tooltip .referenceDay-tooltip-text {
+    width: 400px;
+    height: 35px;
+    transform: translate(-37%, -5px);
+  }
+
+  .header-tooltip .targetCPA-tooltip-text {
+    width: 280px;
+    height: 35px;
+    transform: translate(-24%, -5px);
+  }
+
+  .header-tooltip .minimumAdNumber-tooltip-text {
+    width: 220px;
+    height: 50px;
+    transform: translate(-29%, -5px);
+  }
+
+  .report-col-group {
+    display: flex;
+    justify-content: center;
+  }
+
+  .report-col-group div {
+    margin-left: auto;
+
+    select {
+      color: #000;
+      font-size: 12px;
+      font-weight: normal;
+      margin: 0 10px;
+    }
+  }
+
+  th#cost {
+    color: #fff;
+  }
+
+  td.cost{
+    color: #333;
+  }
+
+  td.cost, td.cpa {
+    text-align: center;
+  }
+
+  .minimumAdNumber input[type=text], .targetCPA input[type=text]{
+    width: 100px;
+  }
+}
+
+.search-box {
+  span.glyphicon-search {
+    position: absolute;
+    font-size: 18px;
+    color: #525252;
+    transform: rotate(90deg);
+    top: 7px;
+    left: 25px;
+  }
+
+  input {
+    outline: none;
+  }
+
+  input[type=search] {
+    -webkit-appearance: textfield;
+    -webkit-box-sizing: content-box;
+    font-family: inherit;
+    font-size: 100%;
+    margin-bottom: 5px;
+  }
+
+  input::-webkit-search-decoration,
+  input::-webkit-search-cancel-button {
+    display: none;
+  }
+
+
+  input[type=search] {
+    border: solid 1px #ccc;
+    padding: 5px 10px 5px 32px;
+    width: 193px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    transition: all .5s;
+  }
+  input[type=search]:focus {
+    background-color: #fff;
+    border-color: #2a87d0;
+
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+  }
+
+  input:-moz-placeholder {
+    color: #999;
+  }
+  input::-webkit-input-placeholder {
+    color: #999;
+  }
+}

@@ -1,0 +1,47 @@
+.modal-content {
+  word-wrap: break-word;
+}
+
+.modal-header-error {
+  background-color: #F56645;
+  border-color: #F56645;
+  border-radius: 6px 6px 0 0;
+  color: white;
+  padding: 10px;
+}
+
+.modal-header-warning {
+  background-color: #f5e79e;
+  border-color: #FFFFC0;
+  border-radius: 6px 6px 0 0;
+  color: black;
+  padding: 10px;
+}
+
+.modal-header-success {
+  background-color: #5bc0de;
+  border-color: #3da1bf;
+  border-radius: 6px 6px 0 0;
+  color: white;
+  padding: 10px;
+}
+
+.modal-header-info {
+  background-color: #5bc0de;
+  border-color: #3da1bf;
+  border-radius: 6px 6px 0 0;
+  color: white;
+  padding: 10px;
+}
+
+.modal-footer {
+  padding: 10px;
+}
+
+.modal-message-width {
+  width: 350px;
+}
+
+.modalWarningInfo {
+  color: orangered;
+}

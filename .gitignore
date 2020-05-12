@@ -1,0 +1,9 @@
+/.idea
+/.build
+/dist
+/node_modules
+.DS_Store
+target
+/bower_components
+PYXIS_Frontend.iml
+frontend.iml

@@ -1,0 +1,44 @@
+.rule-list {
+  height: 450px;
+  overflow: scroll;
+  li {
+    color: #2aabd2;
+    padding: 10px 5px;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%
+  }
+  li:hover {
+    cursor: pointer;
+    background-color: #E0EAF4;
+  }
+
+  .selected {
+    background-color: beige;
+  }
+  .row {
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+  .col-md-10 {
+    padding-left: 10px !important;
+  }
+}
+
+.rule-list-disable {
+  background-color: #EEEEEE;
+  pointer-events: none;
+}
+
+.rule-list-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 650px;
+}
+
+.account-name {
+  font-weight: normal;
+}

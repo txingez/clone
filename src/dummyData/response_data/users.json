@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "result": [
+    {
+      "id": 1,
+      "name": "dummy ad account 1",
+      "createdAt": 1453178620000,
+      "updatedAt": 1453178620000
+    }
+  ]
+}

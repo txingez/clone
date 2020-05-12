@@ -1,0 +1,44 @@
+.cams-form {
+  background: #FFFFFF;
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 20px 15px;
+  margin-bottom: 5px;
+  border-radius: 4px;
+
+  .dl-horizontal dd {
+    margin-left: 200px;
+  }
+
+  hr {
+    border-top: 1px dashed #E0EAF4;
+  }
+
+  span.control {
+    margin-right: 10px;
+  }
+
+  div.control {
+    margin: 5px;
+  }
+
+  span.required {
+    color: red;
+  }
+
+  span.select2 {
+    margin-right: 0px;
+  }
+
+  span.selection {
+    margin-right: 0px;
+  }
+
+  button, a.btn {
+    width: 150px;
+  }
+
+  a.btn{
+    color: #333;
+  }
+}

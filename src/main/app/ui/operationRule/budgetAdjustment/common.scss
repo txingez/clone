@@ -1,0 +1,45 @@
+.scheduler-form-modal{
+  .modal-content {
+    border: 1px solid #999;
+  }
+  .modal-dialog {
+    width: 748px;
+  }
+  .modal-body{
+    padding: 0;
+  }
+  .adjustmentRatio-cell {
+    color: #1b809e;
+  }
+
+  .budget-cell .react-grid-Cell{
+    color: #b92c28;
+    font-weight: bold;
+    background-color: gainsboro;
+  }
+  .adjustmentRatioHoliday-cell {
+    color: #b92c28;
+    font-weight: bold;
+    background-color: gainsboro;
+  }
+  .green-icon {
+    color: green;
+    background-color: #F3F3F3;
+  }
+  .inactive-all-btn {
+    background-color: #F3F3F3;
+  }
+  .hour-cell-ajustment {
+    width: 100%;
+    font-weight: bold;
+  }
+  .budget-adjustment-header-link {
+    color: #fbb450;
+    font-size: small;
+    margin-left: 15px;
+    .header-target-link {
+      text-decoration: underline;
+      color: #fbb450;
+    }
+  }
+}

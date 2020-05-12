@@ -1,0 +1,136 @@
+.navigation-box {
+  .navbar-inverse {
+    background-color: #244765;
+    border: 1px solid #244765;
+  }
+
+  .navbar-fixed-top {
+    border: 0;
+  }
+
+  .navbar-brand {
+    padding: 0;
+  }
+
+  .user-info {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    color: #fff;
+    float: right;
+
+    .dropdown-menu{
+      padding: 10px 0;
+      background-color: #fff;
+
+      li {
+        cursor: pointer;
+        white-space: nowrap;
+        color: #333;
+        line-height: 1.5;
+        padding: 0 10px;
+
+        i {
+          padding-right: 5px;
+        }
+      }
+
+      li:hover {
+        background-color: #E4E8EB;
+      }
+    }
+
+    .detail {
+      margin-top: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
+
+      .name {
+        font-size: 12px;
+        color: #224462;
+        font-weight: bold;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 115px;
+      }
+
+      .role {
+        font-size: 10px;
+      }
+    }
+
+    .user-icon {
+      border: 2px solid #fff;
+      border-radius: 50px;
+      height: 45px;
+    }
+
+    .caret {
+      margin-top: 18px;
+    }
+  }
+
+  .logout {
+    margin-left: 5px;
+    color: #F1A13C;
+    font-weight: bold;
+  }
+
+  .glyphicon {
+    margin-right: 5px;
+  }
+
+  .logo {
+    background-image: url(/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 30% center;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-color: #fff;
+    height: 50px;
+    min-width: 190px;
+  }
+
+  .ul-custom{
+    margin-bottom: 0px;
+    min-width: 70%;
+    text-align: center;
+  }
+
+  .alert-custom{
+    margin-bottom: 0px;
+  }
+
+  @media(max-width: 776px) {
+    .logo {
+      background-position: left center;
+      background-size: contain;
+      -webkit-background-size: contain;
+      -moz-background-size: contain;
+      -o-background-size: contain;
+      margin-left: 0;
+      background-color: transparent;
+    }
+  }
+
+  .page-title {
+    font-family: serif;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: left;
+    vertical-align: center;
+    height: 50px;
+    padding-top: 5px;
+  }
+
+  .btn-logout {
+    margin-top: 10px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+  }
+}

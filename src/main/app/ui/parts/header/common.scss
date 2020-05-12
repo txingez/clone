@@ -1,0 +1,19 @@
+.header-box {
+  .navbar-inverse {
+    background-color: #FFFFFF;
+    border-bottom-color: #FFFFFF;
+    align: center;
+  }
+
+  .logo {
+    background-image: url(/images/logo.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    height: 50px;
+    min-width: 190px;
+  }
+}

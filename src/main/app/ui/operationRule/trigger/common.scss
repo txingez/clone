@@ -1,0 +1,39 @@
+.modal-header-trigger {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  border-radius: 6px 6px 0 0;
+  color: white;
+  padding: 10px;
+}
+
+.trigger-form-width {
+  width: 500px;
+}
+
+.trigger-money-input {
+  width: 100px !important;
+}
+
+.trigger-form-content {
+  .title {
+    margin-left: 50px;
+  }
+
+  .form-group {
+    margin-right: 5px;
+  }
+
+  .and {
+    width: 40px;
+    font-weight: bolder;
+  }
+
+  .remove {
+    color: red;
+    margin-left: 25px;
+  }
+
+  .plus {
+    width: 35px;
+  }
+}

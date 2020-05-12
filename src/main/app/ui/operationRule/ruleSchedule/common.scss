@@ -1,0 +1,28 @@
+.scheduler-form-modal {
+  .modal-dialog {
+    width: 748px;
+  }
+  .modal-body{
+    padding: 0;
+  }
+  .active-hour {
+    color: #1b809e;
+    font-weight: bold;
+  }
+  .inactive-hour {
+    color: #b92c28;
+    font-weight: bold;
+  }
+  .green-icon {
+    color: green;
+    background-color: #F3F3F3;
+  }
+  .inactive-all-btn {
+    background-color: #F3F3F3;
+  }
+  .hour-cell {
+    background-color: #f9f9f9;
+    width: 100%;
+    font-weight: bold;
+  }
+}

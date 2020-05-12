@@ -1,0 +1,30 @@
+const ruleScheduleConstant = {
+  SET_VISIBLE_SCHEDULE: 'SET_VISIBLE_SCHEDULE',
+  SAVE_SCHEDULE: 'SAVE_SCHEDULE',
+  RESET_SCHEDULE: 'RESET_SCHEDULE',
+  LOAD_SCHEDULE: 'LOAD_SCHEDULE',
+  EMPTY_SCHEDULE: [],
+  HOUR_ROW_ON: {
+    MONDAY: 'ON',
+    TUESDAY: 'ON',
+    WEDNESDAY: 'ON',
+    THURSDAY: 'ON',
+    FRIDAY: 'ON',
+    SATURDAY: 'ON',
+    SUNDAY: 'ON'
+  },
+  HOUR_ROW_OFF: {
+    MONDAY: 'OFF',
+    TUESDAY: 'OFF',
+    WEDNESDAY: 'OFF',
+    THURSDAY: 'OFF',
+    FRIDAY: 'OFF',
+    SATURDAY: 'OFF',
+    SUNDAY: 'OFF'
+  },
+  DAYS_OF_WEEK: ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"],
+  VALUE_ON: 'ON',
+  VALUE_OFF: 'OFF'
+}
+
+export default ruleScheduleConstant

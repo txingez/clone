@@ -1,0 +1,125 @@
+.modal-header-trigger {
+  background-color: #337ab7;
+  border-color: #2e6da4;
+  border-radius: 6px 6px 0 0;
+  color: white;
+  padding: 10px;
+}
+.yahoo-trigger {
+  text-align: left;
+  font-size: 13.3px;
+}
+.tail-label{
+  height:33px;
+}
+.trigger-form-modal {
+  .modal-dialog {
+    width: 1000px;
+  }
+
+  .modal-content {
+    width: 105%;
+  }
+
+}
+.trigger-form-width {
+  width: 700px;
+}
+.costRateParam{
+  padding-left: 10px;
+  width: 25%;
+  div{
+    display: inline-block;
+    width: 32%;
+    padding-left: 5px;
+    input[type=text] {
+      width: 100%;
+    }
+  }
+
+}
+.trigger-money-input {
+  width: 100px !important;
+}
+
+.trigger-form-content {
+  .title {
+    margin-left: 50px;
+  }
+
+  .form-group {
+    margin-right: 5px;
+  }
+
+  .and {
+    width: 38px;
+    font-weight: bolder;
+  }
+
+  .remove {
+    color: red;
+    margin-right: 48px;
+    padding-top: 7px;
+    cursor: pointer;
+    padding-bottom: 10px;
+  }
+
+  .plus {
+    width: 35px;
+  }
+
+  .has-error {
+    border-color: red;
+  }
+
+  .remove {
+    float: right;
+  }
+
+  .ad-object{
+    width: 12%;
+  }
+
+  .time-range {
+    width: 13%;
+  }
+  .time-range-facebook{
+    width:17%;
+  }
+  .ad-performance {
+    width: 12%;
+  }
+
+  .operator-options {
+    width: 8%;
+  }
+
+  .input-group {
+    width: 100%;
+  }
+
+  .boundary {
+    vertical-align: top;
+    max-width: 125px;
+  }
+
+  .help-block {
+    color: #a94442
+  }
+
+  .form-group .form-control {
+    font-size: 12px;
+  }
+}
+
+.trigger-footer{
+  display: flex;
+}
+
+.trigger-footer div:first-child{
+  margin-left: 4%;
+  width: 80%;
+  text-align: left;
+}
+
+

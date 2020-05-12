@@ -1,0 +1,32 @@
+.operation-rule-page {
+  .left-menu {
+    padding-left: 10px;
+    padding-right: 5px;
+  }
+  .main-page {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  .json-text{
+    padding-left: 10px;
+    word-wrap: break-word;
+  }
+}
+#previewTarget {
+  height: 300px;
+  overflow: scroll;
+}
+#previewTargetTable {
+  border: 1px solid;
+  th, td {
+    padding:5px;
+    border: 1px solid;
+  }
+}
+
+.remove-spend-cap-container div:first-child div:first-child label:first-child{
+  max-width: 200%;
+  width: 230px;
+}
+
+

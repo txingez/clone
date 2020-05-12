@@ -1,0 +1,47 @@
+{
+  "success": true,
+  "result": {
+    "identifier": 211,
+    "operationName": "Adjust Monthly budget",
+    "accountId": 123,
+    "action": {
+      "actionType": "INCREASE_AD_BID",
+      "actionObject": "AD",
+      "actionNumberParameter": 10,
+      "actionUnitParameter": "PERCENT"
+    },
+    "searchScopes": [
+      {
+        "filterType": "PARTIAL_MATCH",
+        "filterLevel": "AD",
+        "filterObject": "CAMPAIGN_NAME",
+        "filterValue": "RT"
+      }
+    ],
+    "trigger": [
+      {
+        "triggerSteps": [
+          {
+            "adObject": "AD",
+            "timeRange": "TODAY",
+            "triggerComparable": "CPA",
+            "triggerOperation": "GREATER_OR_EQUAL",
+            "boundaryValue": 4000,
+            "joinCondition": "AND"
+          },
+          {
+            "adObject": "AD",
+            "timeRange": "TODAY",
+            "triggerComparable": "COST",
+            "triggerOperation": "GREATER_OR_EQUAL",
+            "boundaryValue": 10000,
+            "joinCondition": "AND"
+          }
+        ],
+        "joinCondition": "OR",
+        "status": "ENABLED"
+      }
+    ],
+    "status": "ENABLED"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "extends": ["eslint:recommended"],
+  "plugins": [
+    "react"
+  ],
+  "env": {
+    "node": true,
+    "browser": true,
+    "es6": true,
+    "mocha": true,
+    "jquery": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
+      "modules": true
+    }
+  },
+  "globals": {
+    "_": true,
+    "process": true,
+    "casper": true,
+    "comic": true,
+    "axios": true,
+    "react": true
+  },
+  // https://eslint.org/docs/rules/
+  "rules": {
+    "no-var": 2,
+    "no-unused-vars": 0,
+    "no-console": 0,
+    "no-useless-escape" : 0,
+    "no-compare-neg-zero": 1,
+    "no-cond-assign": 1,
+    "no-constant-condition": 1,
+    "no-dupe-keys": 1,
+    "no-dupe-args": 1,
+    // react js
+    "jsx-quotes"       : 1,
+    "react/display-name": 1,
+    "react/prefer-es6-class": 1
+  }
+}

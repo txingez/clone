@@ -1,0 +1,161 @@
+.text-required, .text-warning-info {
+  color: #FF0000;
+  width: 100%;
+  text-align: right;
+}
+
+.text-required {
+  font-size: 14px;
+}
+
+.text-warning-info {
+  font-size: 11px;
+}
+
+.header-tooltip {
+  position: relative;
+}
+
+.header-tooltip .header-tooltip-text {
+  display: none;
+  color: #fff;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60%;
+  z-index: 1;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  transition: opacity 0.3s ease-out;
+  height: 34px;
+}
+
+.header-tooltip:hover .header-tooltip-text {
+  display: block;
+  pointer-events: none;
+  font-size: 12px;
+}
+
+.header-tooltip .header-tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.header-tooltip .isConversion-tooltip-text {
+  width: 600px;
+  height: 50px;
+  transform: translate(-40%, -5px);
+}
+
+.header-tooltip .referenceDay-tooltip-text {
+  width: 380px;
+  transform: translate(-39%, -13px);
+}
+
+.header-tooltip .conversionType-tooltip-text {
+  width: 450px;
+  height: 50px;
+  transform: translate(-35%, -5px);
+}
+
+.header-tooltip .targetCPA-tooltip-text {
+  width: 80px;
+  transform: translate(10%, -13px);
+}
+
+.referenceDay {
+  input[type=text] {
+    width: 60px;
+  }
+}
+
+.targetCPA {
+  input[type=text] {
+    width: 80px;
+  }
+}
+
+#cancel-cp {
+  background: none;
+  border: none;
+
+  span {
+    font-size: 14px;
+    color: #000;
+  }
+}
+
+.paste-tooltip span .paste-tooltip-text {
+  display: none;
+  color: #fff;
+  position: absolute;
+  z-index: 9999;
+  border-radius: 3px;
+  font-size: 12px;
+  text-align: center;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.8);
+  transition: opacity 0.3s ease-out;
+  width: 320px;
+  height: 35px;
+  transform: translate(-106%, -75%);
+}
+
+.paste-tooltip:hover span .paste-tooltip-text {
+  display: block;
+  pointer-events: none;
+}
+
+.paste-tooltip span .paste-tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
+
+.p4f-std-rule {
+  .campaignName {
+    width: 50%;
+  }
+
+  .adSetId {
+    min-width: 110px;
+  }
+
+  .adSetName {
+    min-width: 210px;
+  }
+
+  .isConversion {
+    min-width: 110px;
+  }
+
+  .referenceDay {
+    min-width: 85px;
+  }
+
+  .conversionType {
+    min-width: 125px;
+  }
+
+  .targetCPA {
+    min-width: 95px;
+  }
+
+  .modify {
+    min-width: 130px;
+  }
+}

@@ -1,0 +1,371 @@
+.operation-rule-form {
+
+  .text-required {
+    color: #FF0000;
+    width: 100%;
+    text-align: right;
+  }
+
+  .text-warning-info {
+    color: #FF0000;
+    width: 100%;
+    text-align: right;
+    font-size: 80%;
+  }
+
+  .table-panel {
+    display: inline-block;
+  }
+
+  .table-bounder {
+    width: 100%;
+    background: #2a87d0;
+    th {
+      text-align: center;
+      color: white;
+      height: 35px;
+      padding-bottom: 5px;
+      border: 1px solid #fff;
+      border-top: none;
+      padding-top: 5px !important;
+
+      .paste-tooltip {
+        background: #FFFF00;
+        border: 1px solid #000;
+        border-radius: 3px;
+        padding: 3px;
+        .text-button {
+          font-size: 10px;
+          color: #000;
+        }
+      }
+      .paste-tooltip:disabled {
+        background: #dcdcdc;
+        .text-button {
+          color: #000;
+        }
+      }
+      button:focus {
+        outline: none;
+      }
+      .paste-tooltip span .paste-tooltip-text {
+        display: none;
+        color: #fff;
+        position: absolute;
+        z-index: 9999;
+        border-radius: 3px;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px;
+        background: rgba(0,0,0,0.8);
+        transition: opacity 0.3s ease-out;
+        width: 320px;
+        height: 35px;
+        transform: translate(-106%, -75%);
+      }
+      .paste-tooltip:hover span .paste-tooltip-text {
+        display:block;
+        pointer-events: none;
+      }
+      .paste-tooltip span .paste-tooltip-text::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        margin-top: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent transparent black;
+      }
+
+      .title-padding {
+        padding-right: 2em;
+      }
+
+      span {
+        position: relative;
+        text-align: right;
+        padding-top: 2px;
+      }
+
+      .sel-ref-period {
+        position: relative;
+        text-align: right;
+
+        select {
+          margin-left: 5px;
+          width: 55px;
+          color: #000;
+          font-weight: normal;
+          height: 23px;
+        }
+      }
+    }
+    td {
+      padding: 0;
+      height: 0;
+    }
+    th:last-child {
+      border-right: none;
+    }
+
+    th:first-child {
+      border-left: none;
+    }
+
+  }
+
+  .setting-table {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    th {
+      text-align: center;
+      color: white;
+      height: 35px;
+      padding-bottom: 5px;
+      border: 1px solid #fff;
+      border-top: none;
+      background: #2a87d0;
+      font-size: 12px;
+    }
+
+    th:last-child {
+      border-right: 1px solid #2a87d0;
+      border-left: 1px solid #2a87d0;
+    }
+
+    th:nth-last-child(2) {
+      border-right: none;
+    }
+
+    td{
+      padding: 5px;
+      height: 35px;
+      border: 1px solid #2a87d0;
+      border-top: none;
+      font-size: 12px;
+
+      #cancel-cp {
+        background: none;
+        border: none;
+      }
+
+      button {
+        background: #2E8B57;
+        padding: 1px 4px;
+        position: relative;
+        border-radius: 3px;
+
+        .text-button {
+          font-size: 10px;
+          color: #fff;
+        }
+      }
+
+      button:focus {
+        outline: none;
+      }
+    }
+  }
+
+  .setting-table {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    max-height: 700px;
+    background: #2a87d0;
+  }
+
+  .setting-table thead {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+  .setting-table tbody {
+    flex: 1 1 auto;
+    display: block;
+    overflow-y: scroll;
+  }
+  .setting-table tbody tr {
+    width: 100%;
+  }
+
+  .errorClass {
+    background: #cccccc;
+  }
+
+  .noErrorClass {
+    background: white;
+  }
+  .setting-table thead,
+
+  .setting-table tbody tr {
+    display: table;
+    table-layout: fixed;
+  }
+
+  .table-container {
+    border-bottom: 1px solid #2a87d0;
+  }
+
+  input.inputText {
+    max-width: 70%;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid lightgray;
+  }
+
+  input.inputTextEdited {
+    max-width: 70%;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid red;
+  }
+
+  .referenceDay {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    height: 22px;
+    border-bottom: 1px solid lightgray;
+  }
+
+  .referenceDayEdited {
+    width: 100%;
+    max-width: 100%;
+    border: none;
+    height: 22px;
+    border-bottom: 1px solid red;
+  }
+
+  .fixedCol {
+    width: 10%;
+  }
+
+  .adGroupNameCol {
+    width: 30%;
+  }
+
+  .padding-column {
+    width: 1%;
+    border-left: none;
+  }
+
+  ::-webkit-scrollbar {
+    -webkit-appearance: none;
+    background-color: white;
+    border-right: 1px solid #2a87d0;
+    width: 1%;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: rgba(0,0,0,.5);
+  }
+}
+.checkbox-container input {
+  display: none;
+}
+
+.checkbox-container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  margin: 0 !important;
+}
+
+.checkbox-container .checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #eee;
+  border-radius: 3px;
+}
+
+.checkbox-container input:checked + .checkmark {
+  background-color: #2E8B57;
+}
+
+.checkbox-container:hover .checkmark {
+  background-color: #9b9b9b;
+}
+
+.checkbox-container input:checked + .checkmark:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 10px;
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-50deg);
+}
+
+.copy-tooltip span .copy-tooltip-text, .checkbox-tooltip span .checkbox-tooltip-text {
+  display: none;
+  color: #fff;
+  position: absolute;
+  z-index: 9999;
+  border-radius: 3px;
+  font-size: 12px;
+  padding: 10px;
+  background: rgba(0,0,0,0.8);
+  transition: opacity 0.3s ease-out;
+  width: 150px;
+  height: 35px;
+  font-weight: bolder;
+}
+.copy-tooltip:hover span .copy-tooltip-text, .checkbox-tooltip:hover span .checkbox-tooltip-text {
+  display:block;
+  pointer-events: none;
+}
+
+.copy-tooltip span .copy-tooltip-text {
+  transform: translate(-115%, -70%);
+}
+
+.checkbox-tooltip span .checkbox-tooltip-text {
+  width: 230px;
+  transform: translate(-113%, -10%);
+}
+
+.copy-tooltip span .copy-tooltip-text::after, .checkbox-tooltip span .checkbox-tooltip-text::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent transparent black;
+}
+
+.title-wrapper {
+  position: relative;
+  .sort-buttons {
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+
+    button {
+      border: none;
+      background: none !important;
+      position: relative;
+      padding: 0 !important;
+      font-size: 15px;
+    }
+    button:focus {
+      outline: none;
+      span {
+        visibility: hidden;
+      }
+    }
+    button.btn-sort-top {
+      top: -6px;
+      left: 15px;
+    }
+    button.btn-sort-bottom {
+      top: 6px;
+    }
+  }
+}

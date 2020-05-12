@@ -1,0 +1,113 @@
+.p4t-std-rule {
+
+  .adGroupName {
+    width: 80%;
+  }
+
+  .cost {
+    min-width: 100px;
+  }
+
+  .cpa {
+    min-width: 100px;
+  }
+
+  .referencePeriod {
+    min-width: 80px;
+  }
+
+  .referenceDay {
+    min-width: 100px;
+  }
+
+  .targetCPA {
+    min-width: 80px;
+  }
+
+  .minimumAdNumber {
+    min-width: 120px;
+  }
+
+  .maxBid {
+    min-width: 80px;
+  }
+
+  .minBid {
+    min-width: 80px;
+  }
+
+  .modify {
+    min-width: 130px;
+  }
+
+  .header-tooltip .referencePeriod-tooltip-text {
+    width: 380px;
+    height: 35px;
+    transform: translate(-39%, -5px);
+  }
+
+  .header-tooltip .referenceDay-tooltip-text {
+    width: 400px;
+    height: 35px;
+    transform: translate(-37%, -13px);
+  }
+
+  .header-tooltip .targetCPA-tooltip-text {
+    width: 280px;
+    height: 35px;
+    transform: translate(-35%, -5px);
+  }
+
+  .header-tooltip .minimumAdNumber-tooltip-text {
+    width: 220px;
+    height: 50px;
+    transform: translate(-20%, -13px);
+  }
+
+  .header-tooltip .maxBid-tooltip-text {
+    width: 180px;
+    height: 35px;
+    transform: translate(-28%, -13px);
+  }
+
+  .header-tooltip .minBid-tooltip-text {
+    width: 180px;
+    height: 35px;
+    transform: translate(-27%, -13px);
+  }
+
+  .report-col-group {
+    display: flex;
+    justify-content: center;
+  }
+
+  .report-col-group div {
+    margin-left: auto;
+
+    select {
+      color: #000;
+      font-size: 12px;
+      font-weight: normal;
+      margin: 0 10px;
+    }
+  }
+
+  th#cost {
+    color: #fff;
+  }
+
+  td.cost{
+    color: #333;
+  }
+
+  td.cost, td.cpa {
+    text-align: center;
+  }
+
+  .maxBid input[type=text], .minBid input[type=text],
+  .minimumAdNumber input[type=text], .targetCPA input[type=text]{
+    width: 60px;
+  }
+}
+
+

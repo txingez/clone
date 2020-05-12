@@ -1,0 +1,78 @@
+.account-filter-page {
+  margin: 10px 0;
+
+  .search {
+    width: calc(100% - 45px);
+
+    .txtSearch {
+      padding-right: 25px;
+    }
+
+    div.Select {
+      display: grid;
+    }
+  }
+
+  .icon-search {
+    position: absolute;
+    top: 78px;
+    right: 90px;
+    color: #ccc;
+  }
+
+  .plus {
+    margin-left: 10px;
+    width: 50px;
+    font-weight: bolder;
+  }
+
+  .media-list {
+    margin-bottom: 10px;
+  }
+
+  .media-tag {
+    margin-right: 6px;
+    cursor: pointer;
+    height: 27px;
+    font-size: 11px;
+  }
+
+  .media-tag.selected {
+    background-color: #afd9ee !important;
+  }
+
+  .media-tag.disabled:not(.selected):hover {
+    background-color: white;
+  }
+
+  .media-name.new.line {
+    color: #3dcc4a;
+    background-color: #fff;
+  }
+
+  .media-name.yahoo {
+    color: violet;
+  }
+
+  .media-name.facebook {
+    color: #4267b2;
+  }
+
+  .media-name.twitter{
+    color: #38A1F3;
+  }
+
+  .media-title{
+    color: black;
+  }
+
+  .resize {
+    width: 600px;
+  }
+
+  .symbol-require{
+    color: red;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
