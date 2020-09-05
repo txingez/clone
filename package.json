@@ -87,7 +87,7 @@
     "merge-stream": "^1.0.0",
     "mocha": "^4.0.1",
     "mocky": "^0.1.8",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "phantomjs": "^2.1.7",
     "prop-types": "^15.5.10",
     "react": "^16.5.2",
